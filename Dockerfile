@@ -17,7 +17,7 @@ FROM ubuntu:18.04
 EXPOSE 25
 
 ENTRYPOINT [ "dumb-init", "--", "docker-entrypoint.sh" ]
-CMD        [ "msmtpd", "--inetd", "--interface=0.0.0.0", "--port=25" ]
+CMD        [ "msmtpd", "--interface=0.0.0.0", "--port=25" ]
 
 # Prepare APT dependencies
 RUN set -ex \
