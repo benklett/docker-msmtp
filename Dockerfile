@@ -22,7 +22,7 @@ CMD        [ "msmtpd", "--interface=0.0.0.0", "--port=25" ]
 # Prepare APT dependencies
 RUN set -ex \
     && apt-get update \
-    && DEBIAN_FRONTEND=noninteractive apt-get -y install ca-certificates curl gcc git gosu libffi-dev libssl-dev make python python-dev sudo \
+    && DEBIAN_FRONTEND=noninteractive apt-get -y install ca-certificates curl gcc git libffi-dev libssl-dev make python python-dev sudo \
     && rm -rf /var/lib/apt/lists/*
 
 # Install PIP
