@@ -1,11 +1,17 @@
 # Docker Image Packaging for msmtp
 
-## 1.8.5-0alvistackx - TBC
+## 1.8.6-XalvistackY - TBC
+
+### Major Changes
+
+## 1.8.6-2alvistack3 - 2019-11-05
 
 ### Major Changes
 
   - Upgrade minimal Ansible support to 2.9.0
+  - Upgrade Travis CI test as Ubuntu Bionic based
   - Default with Python 3
+  - Hotfix for en\_US.utf8 locale
 
 ## 1.8.5-0alvistack1 - 2019-09-11
 
