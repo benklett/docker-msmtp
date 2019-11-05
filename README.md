@@ -24,14 +24,14 @@ Start msmtp:
 
     # Pull latest image
     docker pull alvistack/msmtp
-
+    
     # Run as detach
     docker run \
         -itd \
         --name msmtp \
         --publish 25:25 \
         alvistack/msmtp
-
+    
     # Run with custom /usr/local/etc/msmtprc
     docker run \
         -itd \
