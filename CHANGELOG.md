@@ -1,8 +1,15 @@
 # Docker Image Packaging for msmtp
 
-## 1.8.6-XalvistackY - TBC
+## 1.8.7-XalvistackY - TBC
 
 ### Major Changes
+
+## 1.8.7-3alvistack1 - 2020-01-15
+
+### Major Changes
+
+  - Replace `dumb-init` with `tini`, as like as `docker --init`
+  - Include release specific vars and tasks
 
 ## 1.8.6-2alvistack3 - 2019-11-05
 

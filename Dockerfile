@@ -23,7 +23,7 @@ ENV MSMTP_VERSION "1.8.7"
 
 EXPOSE 25
 
-ENTRYPOINT [ "dumb-init", "--", "docker-entrypoint.sh" ]
+ENTRYPOINT [ "tini", "-g", "--", "docker-entrypoint.sh" ]
 CMD        [ "msmtpd", "--interface=0.0.0.0", "--port=25" ]
 
 # Hotfix for en_US.utf8 locale
