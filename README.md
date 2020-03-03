@@ -11,12 +11,17 @@ Learn more about msmtp: <https://marlam.de/msmtp/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`latest` (master/Dockerfile)](https://github.com/alvistack/docker-msmtp/blob/master/Dockerfile)
-  - [`1.8` (1.8/Dockerfile)](https://github.com/alvistack/docker-msmtp/blob/1.8/Dockerfile)
+  - [`1.8`, `latest`](https://github.com/alvistack/docker-msmtp/blob/master/molecule/1.8/Dockerfile.j2)
 
 ## Overview
 
 This Docker container makes it easy to get an instance of msmtp up and running.
+
+Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
+
+  - Minimized `Dockerfile` for meta data definition
+  - Provision by Ansible and Molecule Docker driver in single layer
+  - Handle `ENTRYPOINT` with [tini](https://github.com/krallin/tini)
 
 ### Quick Start
 
