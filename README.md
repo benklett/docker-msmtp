@@ -49,9 +49,13 @@ Start msmtp:
 
 ## Versioning
 
+### `alvistack/msmtmp:latest`
+
 The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-msmtp/releases) of this repository. Thus using `alvistack/msmtp:latest` or `alvistack/msmtp` will ensure you are running the most up to date stable version of this image.
 
-Other tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-msmtp) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+### `alvistack/msmtmp:<version>`
+
+The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-msmtp) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
