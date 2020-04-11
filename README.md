@@ -1,6 +1,6 @@
 # Docker Image Packaging for msmtp
 
-[![Travis](https://img.shields.io/travis/alvistack/docker-msmtp.svg)](https://travis-ci.org/alvistack/docker-msmtp)
+[![Travis](https://img.shields.io/travis/com/alvistack/docker-msmtp.svg)](https://travis-ci.com/alvistack/docker-msmtp)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-msmtp.svg)](https://github.com/alvistack/docker-msmtp/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-msmtp.svg)](https://github.com/alvistack/docker-msmtp/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/msmtp.svg)](https://hub.docker.com/r/alvistack/msmtp/)
@@ -55,7 +55,7 @@ The `latest` tag matches the most recent [GitHub Release](https://github.com/alv
 
 ### `alvistack/msmtmp:<version>`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-msmtp) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-msmtp) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
