@@ -44,5 +44,5 @@ ENV MSMTP_VERSION "{{ msmtp_version }}"
 
 EXPOSE 25
 
-ENTRYPOINT [ "tini", "-g", "--", "docker-entrypoint.sh" ]
+ENTRYPOINT [ "catatonit", "-g", "--", "docker-entrypoint.sh" ]
 CMD        [ "msmtpd", "--interface=0.0.0.0", "--port=25" ]
