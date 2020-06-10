@@ -1,9 +1,11 @@
 # Docker Image Packaging for msmtp
 
-## 1.8.7-XalvistackY - TBC
+## 1.8.10-XalvistackY - TBC
 
 ### Major Changes
 
+  - Revamp `create`, `side_effect`, `verify` and `destroy` logic
+  - Install with static binary archive
   - Replace `tini` with `catatonit`
   - Rename `post_tasks.yml` as `side_effect.yml`
   - Upgrade base image to Ubuntu 20.04
