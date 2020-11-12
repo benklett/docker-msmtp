@@ -1,9 +1,9 @@
 # Docker Image Packaging for msmtp
 
-[![Travis](https://img.shields.io/travis/com/alvistack/docker-msmtp.svg)](https://travis-ci.com/alvistack/docker-msmtp)
-[![GitHub release](https://img.shields.io/github/release/alvistack/docker-msmtp.svg)](https://github.com/alvistack/docker-msmtp/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/docker-msmtp.svg)](https://github.com/alvistack/docker-msmtp/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/msmtp.svg)](https://hub.docker.com/r/alvistack/msmtp/)
+[![Travis](https://img.shields.io/travis/com/benklett/docker-msmtp.svg)](https://travis-ci.com/benklett/docker-msmtp)
+[![GitHub release](https://img.shields.io/github/release/benklett/docker-msmtp.svg)](https://github.com/benklett/docker-msmtp/releases)
+[![GitHub license](https://img.shields.io/github/license/benklett/docker-msmtp.svg)](https://github.com/benklett/docker-msmtp/blob/master/LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/benklett/msmtp.svg)](https://hub.docker.com/r/benklett/msmtp/)
 
 msmtp is an SMTP client.
 
@@ -11,7 +11,7 @@ Learn more about msmtp: <https://marlam.de/msmtp/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`1.8`, `latest`](https://github.com/alvistack/docker-msmtp/blob/master/molecule/1.8/Dockerfile.j2)
+  - [`1.8`, `latest`](https://github.com/benklett/docker-msmtp/blob/master/molecule/1.8/Dockerfile.j2)
 
 ## Overview
 
@@ -35,7 +35,7 @@ Start msmtp:
         -itd \
         --name msmtp \
         --publish 25:25 \
-        alvistack/msmtp
+        benklett/msmtp
     
     # Run with custom /usr/local/etc/msmtprc
     docker run \
@@ -43,7 +43,7 @@ Start msmtp:
         --name msmtp \
         --publish 25:25 \
         --volume /usr/local/etc/msmtprc:/usr/local/etc/msmtprc \
-        alvistack/msmtp
+        benklett/msmtp
 
 **Success**. msmtp is now available on port `25`.
 
@@ -51,11 +51,11 @@ Start msmtp:
 
 ### `alvistack/msmtmp:latest`
 
-The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-msmtp/releases) of this repository. Thus using `alvistack/msmtp:latest` or `alvistack/msmtp` will ensure you are running the most up to date stable version of this image.
+The `latest` tag matches the most recent [GitHub Release](https://github.com/benklett/docker-msmtp/releases) of this repository. Thus using `benklett/msmtp:latest` or `benklett/msmtp` will ensure you are running the most up to date stable version of this image.
 
 ### `alvistack/msmtmp:<version>`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-msmtp) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+The version tags are rolling release rebuild by [Travis](https://travis-ci.com/benklett/docker-msmtp) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
@@ -67,3 +67,4 @@ The version tags are rolling release rebuild by [Travis](https://travis-ci.com/a
   - Wong Hoi Sing Edison
       - <https://twitter.com/hswong3i>
       - <https://github.com/hswong3i>
+  - benklett
